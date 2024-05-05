@@ -1,0 +1,64 @@
+.pembungkus {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+}
+
+body {
+  font: 18px/30px "Poppins", sans-serif;
+  background-color: #eaeaea;
+  background-image: url(email.jpg);
+}
+.header .judul {
+  font-size: 45px;
+}
+.header ul li a {
+  color: coral;
+  text-decoration: none;
+  padding: 5px;
+  scroll-behavior: smooth;
+}
+
+.img {
+  height: 400px;
+  background-image: url(web.jpg);
+  background-size: cover;
+  background-position: 0 -60px;
+  padding: 4px;
+  border-top: 7px solid coral;
+  border-bottom: 7px solid skyblue;
+}
+h1 {
+  color: dimgray;
+  padding: 20px;
+}
+a {
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li a:hover {
+  color: black;
+}
+.header {
+  text-align: center;
+}
+h2 {
+  color: dimgray;
+  text-align: center;
+  padding-top: 30px;
+}
+p {
+  text-align: center;
+  color: dimgrey;
+}
+.copyright {
+  height: 80px;
+  background-color: rgb(44, 44, 44);
+}
+.copyright p {
+  color: rgb(228, 228, 228);
+  padding-top: 28px;
+}
